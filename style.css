@@ -6190,5 +6190,5 @@ text-decoration: solid;
 .select3 option.header__language-btn::before {
     background-color: rgba(109, 102, 102, 0); 
 background: rgba(109, 102, 102, 0) !important;  	
-    content: " ";
+
 }
