@@ -944,7 +944,6 @@ input[type=checkbox]:checked+.login__label:before {
 
 .header__language {
   margin-right: 19px;
-  padding-top: 4px;
 }
 
 .header__language-list {
