@@ -6179,14 +6179,20 @@ text-decoration: solid;
 
 .select3 {    
     background-color: rgba(109, 102, 102, 0);    
-    padding: 8px 16px;    
-    border-radius: 5px;
+    padding: 0 10px;        
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    color: #fff;	
+    color: #fff;
+	border: none; 
+    outline: none; 
 }
-.select3 option.header__language-btn::before {
-    background-color: rgba(109, 102, 102, 0); 
+.select3 .header__language-btn::before,.select3 .header__language-btn {
+background-color: rgba(109, 102, 102, 0) !important; 
 background: rgba(109, 102, 102, 0) !important;  	
+color:#000;
+font-size: 14px;
+}
+.header__language {
+padding-top: 0;
 }
