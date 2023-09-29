@@ -954,21 +954,11 @@ input[type=checkbox]:checked+.login__label:before {
 }
 
 .header__language-btn {
-  background: none;
-  border: none;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 500;
-  font-family: "Montserrat";
-  color: #fff;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  padding-left: 4px;
+
 }
 
 .header__language-btn:hover {
-  color: #F49F1C;
+
 }
 
 .header__cont {
@@ -6186,4 +6176,19 @@ text-decoration: solid;
     color: #FFFFFF;
 	z-index: 1;
     position: relative;
+}
+
+.select3 {    
+    background-color: rgba(109, 102, 102, 0);    
+    padding: 8px 16px;    
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;	
+}
+.select3 option.header__language-btn::before {
+    background-color: rgba(109, 102, 102, 0); 
+background: rgba(109, 102, 102, 0) !important;  	
+    content: " ";
 }
