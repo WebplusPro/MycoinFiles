@@ -5624,7 +5624,7 @@ padding-right:10px;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 .material-icons {
   font-size: 24px;
