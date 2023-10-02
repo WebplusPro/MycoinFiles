@@ -223,6 +223,7 @@ box-shadow: none;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
+  width: 97%;
 }
 .cash__address input::placeholder {
   font-family: "Montserrat";
