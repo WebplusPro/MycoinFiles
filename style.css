@@ -6199,3 +6199,8 @@ padding-top: 0;
 .white-text{
 	color: #fff;
 }
+@media(max-width:450px) {
+.raise__itemText .nazva {
+    font-size: 13px;
+}
+}
