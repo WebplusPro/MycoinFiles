@@ -6204,3 +6204,6 @@ padding-top: 0;
     font-size: 13px;
 }
 }
+.login__check .labelReg {
+display: inline;
+}
